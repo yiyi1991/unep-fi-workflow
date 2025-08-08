@@ -1,37 +1,38 @@
-# Scenario Explorer Workflow Template
+# UNEP-FI Scenario Processing Workflow
 
-Copyright 2022-2024 IIASA
+Copyright 2025 IIASA 
 
+This work is licensed under <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0</a> <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"><img style="height:15px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"><img style="height:15px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg"></a>
+
+[![License: CC-BY 4.0](https://img.shields.io/github/license/iiasa/idesignres-workflow)](https://github.com/iiasa/idesignres-workflow/blob/main/LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-
-## Setup
-
-- Create a repository using this template.
-- Add two webhooks in `<workflow-name>-workflow` repository:
-
-  ```
-  Payload URL 1: https://builds.ece.iiasa.ac.at/generic-webhook-trigger/invoke?token=uSnGsckCqQ6z6EMCxXCFyTDPpvmp8MyDnBcu2bHoSB7VdKjn
-  Payload URL 2: https://next-builds.ece.iiasa.ac.at/generic-webhook-trigger/invoke?token=uSnGsckCqQ6z6EMCxXCFyTDPpvmp8MyDnBcu2bHoSB7VdKjn
-  Content type: application/json
-  Secret: Passbolt Jenkins HMAC Secret
-  ```
-- Add `ece-scenario-services-team` as collaborators with `Admin` role in the settings of the repository and remove your personal access if you are part of the team.
 
 ## Overview
 
-This is a template for project-specific scenario processing workflows.
+<img src="images/unep_fi_logo.svg" height="80" align="right" alt="UNEP-FI logo" />
 
-To use this template for a project, do the following:
-- Create a new repository from this template
-- Update the title and overview section of this Readme
-- Start adding definitions and mappings 
-- If you want to use the [common-definitions](https://github.com/IAMconsortium/common-definitions)
-  developed and maintained by the IAMC, rename the file `nomenclature_template.yaml`
-  to `nomenclature.yaml`.
+The United Nations Environment Programme Finance Initiative (UNEP FI) is a partnership between the UN and the financial sector aimed at promoting sustainable finance. It works to align the financial industry with sustainable development goals and environmental stewardship.
+
+Visit https://www.unepfi.org for more information about the project!
+
+## Using this repository
+
+This workflow repository includes the workflow for scenario processing and validation
+using the database infrastructure developed by the IIASA Scenario Services &
+Scientific Software team. Read more at https://docs.ece.iiasa.ac.at!
+
+The project mostly uses the variables from the [common-definitions](https://github.com/IAMconsortium/common-definitions)
+repository, an initiative by the IAMC to develop a shared list of definitions across projects.
+to faciliate interoperability and reuse of scenario data.
+
+> [!TIP]
+> For *users not comfortable working with GitHub repositories and yaml files*,
+> the definitions for this project are available for download as an xlsx spreadsheet
+> at http://files.ece.iiasa.ac.at/unep-fi/unep-fi-template.xlsx.
 
 ### Project nomenclature
 
-The folder `definitions` can contain the project nomenclature, i.e., list of allowed
+The folder `definitions` can contain the project-specific codelists, i.e., list of allowed
 variables and regions, for use in the validation workflow. See the **nomenclature**
 package for more information ([link](https://github.com/iamconsortium/nomenclature)).
 
@@ -61,3 +62,6 @@ about the **pyam** package for scenario analysis and data visualization.
 **Important**: Do not change the name of the module `workflow.py` or the function `main`
 as they are called like this by the Job Execution Service. Details can be found
 [here](https://wiki.ece.iiasa.ac.at/wiki/index.php/Scenario_Explorer/Setup#Job_Execution_Service).
+
+
+
