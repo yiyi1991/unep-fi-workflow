@@ -1,0 +1,21 @@
+repositories:
+  common-definitions:
+    url: https://github.com/IAMconsortium/common-definitions.git/
+definitions:
+  variable:
+    repository: common-definitions
+  region:
+    repository:
+      name: common-definitions
+      include:
+        - hierarchy: common
+        - hierarchy: R5
+        - hierarchy: R9
+        - hierarchy: R10
+#       - hierarchy: .. add model hierarchy here
+    country: true
+#mappings:
+#  repository:
+#    name: common-definitions
+#    include:
+#      - .. add model name here
