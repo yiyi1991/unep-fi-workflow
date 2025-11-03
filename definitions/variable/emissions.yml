@@ -1,0 +1,35 @@
+- Emissions|CO2|Energy|Demand|Bunkers|International Shipping|Bulker:
+    unit: Mt CO2/yr
+    description: Emissions of CO2 for international shipping by bulker vessels
+- Emissions|CO2|Energy|Demand|Bunkers|International Shipping|Tanker:
+    unit: Mt CO2/yr
+    description: Emissions of CO2 for international shipping by tanker vessels
+- Emissions|CO2|Energy|Demand|Bunkers|International Shipping|Container:
+    unit: Mt CO2/yr
+    description: Emissions of CO2 for international shipping by container vessels
+- Emissions|CO2|Energy|Demand|Bunkers|International Shipping|Other unitized:
+    unit: Mt CO2/yr
+    description: Emissions of CO2 for international shipping by other unitized vessels
+- Emissions|CO2|Energy|Demand|Bunkers|International Shipping|Passenger:
+    unit: Mt CO2/yr
+    description: Emissions of CO2 for international shipping by passenger vessels
+- Emissions|CO2|Energy|Demand|Bunkers|International Shipping|Miscellaneous:
+    unit: Mt CO2/yr
+    description: Emissions of CO2 for international shipping by miscellaneous vessels
+
+- Emissions|CO2|Energy|Demand|Industry|Non-Ferrous Metals|Aluminum|Primary:
+    unit: Mt CO2/yr
+    description: Emissions of CO2 for primary aluminium production
+- Emissions|CO2|Energy|Demand|Industry|Non-Ferrous Metals|Aluminum|Primary|Electrolysis:
+    unit: Mt CO2/yr
+    description: Emissions of CO2 for primary aluminium production by electrolysis
+- Emissions|CO2|Energy|Demand|Industry|Non-Ferrous Metals|Aluminum|Primary|Refining:
+    unit: Mt CO2/yr
+    description: Emissions of CO2 for primary aluminium production by refining
+- Emissions|CO2|Energy|Demand|Industry|Non-Ferrous Metals|Aluminum|Secondary:
+    unit: Mt CO2/yr
+    description: Emissions of CO2 for secondary aluminium production
+
+- Emissions|Kyoto Gases|Energy|Demand|Industry|Iron and Steel|Steel|{Steel Technology}:
+    unit: Mt CO2-equiv/yr
+    description: Emissions of Kyoto Gases for Steel production by {Steel Technology} routes

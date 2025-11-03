@@ -1,0 +1,16 @@
+- Production|Iron and Steel|Steel|{Steel Technology}:
+    description: Production of Steel by {Steel Technology} routes
+    unit: Mt/yr
+
+- Production|Non-Ferrous Metals|Aluminium|Primary:
+    unit: Mt/yr
+    description: Production of primary aluminium
+- Production|Non-Ferrous Metals|Aluminium|Secondary|New Scrap:
+    unit: Mt/yr
+    description: Production of secondary aluminium by new scrap
+- Production|Non-Ferrous Metals|Aluminium|Secondary|Old Scrap:
+    unit: Mt/yr
+    description: Production of secondary aluminium by old scrap
+- Production|Non-Metallic Minerals|Clinker:
+    unit: Mt/yr
+    description: Production of clinker

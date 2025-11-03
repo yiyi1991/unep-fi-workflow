@@ -1,0 +1,11 @@
+- Steel Technology:
+    - BF:
+        description: Steel production by Blast Furnace (BF) routes
+    - DRI-EAF:
+        description: Steel production by Direct Reduced Iron (DRI) and Electric Arc Furnace (EAF) routes
+    - DRI-Melt:
+        description: Steel production by Direct Reduced Iron (DRI) and melter (such as  Electric Smelting Furnace) routes
+    - EAF:
+        description: Steel production by other Electric Arc Furnace (EAF) routes
+    - SR:
+        description: Steel production by Smelting Reduction (SR) routes

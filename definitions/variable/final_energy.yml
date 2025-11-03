@@ -1,0 +1,43 @@
+- Final Energy|Transportation|Road:
+    unit: EJ/yr
+    description: Final energy consumption for road transportation
+- Final Energy|Transportation|Road|Freight:
+    unit: EJ/yr
+    description: Final energy consumption for freight transportation
+- Final Energy|Transportation|Road|Passenger:
+    unit: EJ/yr
+    description: Final energy consumption for passenger transportation
+- Final Energy|Transportation|Shipping:
+    unit: EJ/yr
+    description: Final energy consumption for shipping transportation
+
+- Final Energy|Bunkers|International Shipping|Ammonia:
+    unit: EJ/yr
+    description: Final energy consumption for international shipping by ammonia
+- Final Energy|Bunkers|International Shipping|Ethanol:
+    unit: EJ/yr
+    description: Final energy consumption for international shipping by ethanol
+- Final Energy|Bunkers|International Shipping|Ethanol|Biomass:
+    unit: EJ/yr
+    description: Final energy consumption for international shipping by biomass-based ethanol
+- Final Energy|Bunkers|International Shipping|Gases|Biomass:
+    unit: EJ/yr
+    description: Final energy consumption for international shipping by biomass-based gases
+- Final Energy|Bunkers|International Shipping|Gases|Fossil:
+    unit: EJ/yr
+    description: Final energy consumption for international shipping by fossil-based gases
+- Final Energy|Bunkers|International Shipping|Hydrogen:
+    unit: EJ/yr
+    description: Final energy consumption for international shipping by hydrogen
+- Final Energy|Bunkers|International Shipping|Liquids|Biomass:
+    unit: EJ/yr
+    description: Final energy consumption for international shipping by biomass-based liquids
+- Final Energy|Bunkers|International Shipping|Liquids|Fossil|HFO:
+    unit: EJ/yr
+    description: Final energy consumption for international shipping by heavy fuel oil
+- Final Energy|Bunkers|International Shipping|Liquids|Fossil|MGO:
+    unit: EJ/yr
+    description: Final energy consumption for international shipping by marine gas oil
+- Final Energy|Bunkers|International Shipping|Methanol:
+    unit: EJ/yr
+    description: Final energy consumption for international shipping by methanol

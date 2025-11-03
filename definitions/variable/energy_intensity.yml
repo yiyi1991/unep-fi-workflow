@@ -1,0 +1,32 @@
+- Energy Intensity|Commercial:
+    unit: EJ/billion m2
+    description: Energy intensity of commercial buildings per floor space
+- Energy Intensity|Commercial|{Commercial Building Type}:
+    unit: EJ/billion m2
+    description: Energy intensity of commercial buildings of type {Commercial Building Type} per floor space
+- Energy Intensity|Residential:
+    unit: EJ/billion m2
+    description: Energy intensity of residential buildings per floor space
+- Energy Intensity|Residential|Multi-Family:
+    unit: EJ/billion m2
+    description: Energy intensity of multi-family residential buildings per floor space
+- Energy Intensity|Residential|Single-Family:
+    unit: EJ/billion m2
+    description: Energy intensity of single-family residential buildings per floor space
+
+- Energy Intensity|Industry|Chemicals:
+    unit: EJ/billion USD_2010
+    description: Energy intensity per billion USD_2010 of chemicals production
+- Energy Intensity|Industry|Iron and Steel|Steel|Primary:
+    unit: EJ/Mt
+    description: Energy intensity per ton of primary steel production
+- Energy Intensity|Industry|Iron and Steel|Steel|Secondary:
+    unit: EJ/Mt 
+    description: Energy intensity per ton of secondary steel production
+
+- Energy Intensity|Transport|Road|Freight:
+    unit: EJ/billion tkm
+    description: Energy intensity per ton-kilometer of freight transportation
+- Energy Intensity|Transport|Road|Passenger:
+    unit: EJ/billion pkm
+    description: Energy intensity per passenger-kilometer of passenger transportation
