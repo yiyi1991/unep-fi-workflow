@@ -17,6 +17,9 @@
     unit: Mt CO2/yr
     description: Emissions of CO2 for international shipping by miscellaneous vessels
 
+- Emissions|CO2|Energy|Demand|Industry|Non-Ferrous Metals|Aluminum:
+    unit: Mt CO2/yr
+    description: Emissions of CO2 for aluminium production
 - Emissions|CO2|Energy|Demand|Industry|Non-Ferrous Metals|Aluminum|Primary:
     unit: Mt CO2/yr
     description: Emissions of CO2 for primary aluminium production
@@ -30,6 +33,22 @@
     unit: Mt CO2/yr
     description: Emissions of CO2 for secondary aluminium production
 
+- Emissions|Kyoto Gases|Energy|Demand|Industry|Non-Metallic Minerals|Cement:
+    unit: Mt CO2-equiv/yr
+    description: Emissions of Kyoto Gases for cement production
+- Emissions|Kyoto Gases|Energy|Demand|Industry|Iron and Steel|Steel:
+    unit: Mt CO2-equiv/yr
+    description: Emissions of Kyoto Gases for Steel production
 - Emissions|Kyoto Gases|Energy|Demand|Industry|Iron and Steel|Steel|{Steel Technology}:
     unit: Mt CO2-equiv/yr
     description: Emissions of Kyoto Gases for Steel production by {Steel Technology} routes
+
+- Emissions|CO2|Energy|Demand|Transportation|Passenger|Road:
+    unit: Mt CO2/yr
+    description: Emissions of CO2 for passenger transportation by road
+- Emissions|CO2|Energy|Demand|Transportation|Freight|Road:
+    unit: Mt CO2/yr
+    description: Emissions of CO2 for freight transportation by road
+- Emissions|CO2|Energy|Demand|Transportation|Road:
+    unit: Mt CO2/yr
+    description: Emissions of CO2 for transportation by road
