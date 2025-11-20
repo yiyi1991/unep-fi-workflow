@@ -1,0 +1,5 @@
+- Residential Building Type:
+    - Single-Family:
+        description: single-family residential buildings
+    - Multi-Family:
+        description: multi-family residential buildings

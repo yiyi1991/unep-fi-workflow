@@ -1,19 +1,19 @@
 - Commercial Building Type:
     - Distribution Warehouse Cold:
-        description: Commercial building used for storing and distributing goods at a cold temperature
+        description: commercial building used for storing and distributing goods at a cold temperature
     - Distribution Warehouse Warm:
-        description: Commercial building used for storing and distributing goods at a warm temperature
+        description: commercial building used for storing and distributing goods at a warm temperature
     - Healthcare:
-        description: Commercial building used for healthcare services
+        description: commercial building used for healthcare services
     - Hotel:
-        description: Commercial building used for hotel services
+        description: commercial building used for hotel services
     - Leisure:
-        description: Commercial building used for leisure services
+        description: commercial building used for leisure services
     - Office:
-        description: Commercial building used for office services
+        description: commercial building used for office services
     - Retail High Street:
-        description: Commercial building used for retail services on a high street
+        description: commercial building used for retail services on a high street
     - Retail Warehouse:
-        description: Commercial building used for retail services in a warehouse
+        description: commercial building used for retail services in a warehouse
     - Shopping Center:
-        description: Commercial building used for services in a shopping center
+        description: commercial building used for services in a shopping center
