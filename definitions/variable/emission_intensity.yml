@@ -11,9 +11,9 @@
 - Emission Intensity|CO2|Energy|Demand|Industry|Chemicals:
     description: Emission intensity of CO2 per billion USD_2010 of chemicals production
     unit: Mt CO2/billion USD_2010
-- Emission Intensity|CO2|Energy|Demand|Industry|Iron and Steel|Primary:
+- Emission Intensity|CO2|Energy|Demand|Industry|Iron and Steel|Steel|Primary:
     description: Emission intensity of CO2 per ton of primary steel production
     unit: Mt CO2/Mt
-- Emission Intensity|CO2|Energy|Demand|Industry|Iron and Steel|Secondary:
+- Emission Intensity|CO2|Energy|Demand|Industry|Iron and Steel|Steel|Secondary:
     description: Emission intensity of CO2 per ton of secondary steel production
     unit: Mt CO2/Mt
