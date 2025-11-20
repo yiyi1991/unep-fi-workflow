@@ -1,13 +1,13 @@
-- Emission Intensity|CO2|Residential and Commercial:
+- Emission Intensity|CO2|Energy|Demand|Residential and Commercial:
     description: Emission intensity of CO2 for residential and commercial buildings per floor space
     unit: Mt CO2/billion m2
-- Emission Intensity|CO2|Residential|Single-Family:
+- Emission Intensity|CO2|Energy|Demand|Residential|Single-Family:
     description: Emission intensity of CO2 for single-family residential buildings per floor space
     unit: Mt CO2/billion m2
-- Emission Intensity|CO2|Residential|Multi-Family:
+- Emission Intensity|CO2|Energy|Demand|Residential|Multi-Family:
     description: Emission intensity of CO2 for multi-family residential buildings per floor space
     unit: Mt CO2/billion m2
-- Emission Intensity|CO2|Commercial|{Commercial Building Type}:
+- Emission Intensity|CO2|Energy|Demand|Commercial|{Commercial Building Type}:
     description: Emission intensity of CO2 for a commercial building of type {Commercial Building Type}
     unit: kg CO2/m2
 
@@ -23,16 +23,3 @@
 - Emission Intensity|CO2|Energy|Demand|Industry|Iron and Steel|Secondary:
     description: Emission intensity of CO2 per ton of secondary steel production
     unit: Mt CO2/Mt
-- Emission Intensity|CO2|Energy|Demand|Industry|Non-Ferrous Metals|Aluminum|Primary Aluminium:
-    description: Emission intensity of CO2 per ton of primary aluminium production
-    unit: Mt CO2/Mt
-- Emission Intensity|CO2|Energy|Demand|Industry|Non-Ferrous Metals|Aluminum|Secondary Aluminium:
-    description: Emission intensity of CO2 per ton of secondary aluminium production
-    unit: Mt CO2/Mt
-
-- Emission Intensity|CO2|Energy|Demand|Transportation|Road|Freight:
-    description: Emission intensity of CO2 per ton-kilometer of freight transportation
-    unit: g CO2/tkm
-- Emission Intensity|CO2|Energy|Demand|Transportation|Road|Passenger:
-    description: Emission intensity of CO2 per passenger-kilometer of passenger transportation
-    unit: g CO2/pkm
