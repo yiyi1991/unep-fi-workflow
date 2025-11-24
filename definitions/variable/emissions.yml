@@ -1,3 +1,12 @@
+- Emissions|CO2|Energy and Industrial Processes [incl. Indirect Demand]|Iron and Steel:
+    description: Emissions of CO2 from the iron and steel sector including emissions
+      from direct and indirect energy use and industrial processes (Scope 1 & Scope 2)
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Indirect Demand|Industry|Iron and Steel:
+    description: Emissions of CO2 from indirect energy use in the iron and steel sector
+      (Scope 2)
+    unit: Mt CO2/yr
+
 - Emissions|CO2|Energy|Demand|Bunkers|International Shipping|Bulker:
     description: Emissions of CO2 for international shipping by bulker vessels
     unit: Mt CO2/yr
