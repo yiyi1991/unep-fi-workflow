@@ -28,7 +28,7 @@
 - Emission Intensity|Kyoto Gases|Energy and Industrial Processes [incl. Indirect Demand]|Iron and Steel|Steel:
     description: Emissions of CO2 from the iron and steel sector including emissions
       from direct and indirect energy use and industrial processes (Scope 1 & Scope 2)
-    unit: Mt CO2/Mt
+    unit: Mt CO2-equiv/Mt
 - Emission Intensity|CO2|Energy and Industrial Processes|Iron and Steel|Steel|{Primary/Secondary}:
     description: Direct energy-related emission intensity of CO2 per ton of {Primary/Secondary} steel production
     unit: Mt CO2/Mt
