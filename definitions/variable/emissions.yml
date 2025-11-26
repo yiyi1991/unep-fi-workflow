@@ -59,7 +59,7 @@
 - Emissions|Kyoto Gases|Energy and Industrial Processes [incl. Indirect Demand]|Iron and Steel|Steel:
     description: Emissions of Kyoto Gases for steel production (Scope 1 & Scope 2)
     unit: Mt CO2-equiv/yr
-- Emissions|Kyoto Gases|Energy and Industrial Processes [incl. Indirect Demand]|Iron and Steel|{Steel Technology}:
+- Emissions|Kyoto Gases|Energy and Industrial Processes [incl. Indirect Demand]|Iron and Steel|Steel|{Steel Technology}:
     description: Emissions of Kyoto Gases for steel production (Scope 1 & Scope 2) 
       by {Steel Technology} routes
     unit: Mt CO2-equiv/yr
