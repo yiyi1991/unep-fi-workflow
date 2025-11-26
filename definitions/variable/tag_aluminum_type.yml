@@ -1,0 +1,12 @@
+- Aluminum Type:
+  - Aluminum:
+      description: total aluminium production
+  - Aluminum|Primary:
+      description: primary aluminium production
+  - Primary|Electrolysis:
+      description: primary aluminium production by electrolysis
+  - Aluminum|Primary|Refining:
+      description: primary aluminium production by refining
+      unit: Mt CO2/yr
+  - Aluminum|Secondary:
+      description: secondary aluminium production

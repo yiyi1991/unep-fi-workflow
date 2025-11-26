@@ -1,3 +1,12 @@
+- Emissions|CO2|Energy and Industrial Processes|Industry:
+    description: Emissions of CO2 from the industry sector including
+      direct energy use and industrial processes (Scope 1)
+    unit: Mt CO2/yr
+
+- Emissions|CO2|Energy and Industrial Processes|Iron and Steel:
+    description: Emissions of CO2 from the iron and steel sector including emissions
+      from direct energy use and industrial processes (Scope 1)
+    unit: Mt CO2/yr
 - Emissions|CO2|Energy and Industrial Processes [incl. Indirect Demand]|Iron and Steel:
     description: Emissions of CO2 from the iron and steel sector including emissions
       from direct and indirect energy use and industrial processes (Scope 1 & Scope 2)
@@ -8,57 +17,66 @@
     unit: Mt CO2/yr
 
 - Emissions|CO2|Energy|Demand|Bunkers|International Shipping|Bulker:
-    description: Emissions of CO2 for international shipping by bulker vessels
+    description: Direct energy-related emissions of CO2 for international shipping by bulker vessels
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Bunkers|International Shipping|Tanker:
-    description: Emissions of CO2 for international shipping by tanker vessels
+    description: Direct energy-related emissions of CO2 for international shipping by tanker vessels
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Bunkers|International Shipping|Container:
-    description: Emissions of CO2 for international shipping by container vessels
+    description: Direct energy-related emissions of CO2 for international shipping by container vessels
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Bunkers|International Shipping|Other Unitized:
-    description: Emissions of CO2 for international shipping by other unitized vessels,
+    description: Direct energy-related emissions of CO2 for international shipping by other unitized vessels,
       e.g., roll-on/roll-off vessels that carry cars, trucks, etc.
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Bunkers|International Shipping|Passenger:
-    description: Emissions of CO2 for international shipping by passenger vessels
+    description: Direct energy-related emissions of CO2 for international shipping by passenger vessels
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Bunkers|International Shipping|Miscellaneous:
-    description: Emissions of CO2 for international shipping by miscellaneous vessels
+    description: Direct energy-related emissions of CO2 for international shipping by miscellaneous vessels
     unit: Mt CO2/yr
 
-- Emissions|CO2|Energy|Demand|Industry|Non-Ferrous Metals|Aluminum:
-    description: Emissions of CO2 for aluminium production
+- Emissions|CO2|Energy and Industrial Processes|Non-Ferrous Metals|Aluminum:
+    description: Emissions of CO2 for aluminium production including direct energy use
+      and industrial processes (Scope 1)
     unit: Mt CO2/yr
-- Emissions|CO2|Energy|Demand|Industry|Non-Ferrous Metals|Aluminum|Primary:
-    description: Emissions of CO2 for primary aluminium production
+- Emissions|CO2|Energy and Industrial Processes [incl. Indirect Demand]|Non-Ferrous Metals|{Aluminum Type}:
+    description: Emissions of CO2 for {Aluminum Type} including emissions
+      from direct and indirect energy use and industrial processes (Scope 1 & Scope 2)
     unit: Mt CO2/yr
-- Emissions|CO2|Energy|Demand|Industry|Non-Ferrous Metals|Aluminum|Primary|Electrolysis:
-    description: Emissions of CO2 for primary aluminium production by electrolysis
-    unit: Mt CO2/yr
-- Emissions|CO2|Energy|Demand|Industry|Non-Ferrous Metals|Aluminum|Primary|Refining:
-    description: Emissions of CO2 for primary aluminium production by refining
-    unit: Mt CO2/yr
-- Emissions|CO2|Energy|Demand|Industry|Non-Ferrous Metals|Aluminum|Secondary:
-    description: Emissions of CO2 for secondary aluminium production
+- Emissions|CO2|Energy|Demand|Industry|Non-Ferrous Metals|{Aluminum Type}:
+    description: Direct energy-related emissions of CO2 for {Aluminum Type}
     unit: Mt CO2/yr
 
+- Emissions|CO2|Energy and Industrial Processes|Industry|Non-Metallic Minerals|Cement:
+    description: Emissions of CO2 from cement including
+      direct energy use and industrial processes (Scope 1)
+    unit: Mt CO2/yr
 - Emissions|Kyoto Gases|Energy|Demand|Industry|Non-Metallic Minerals|Cement:
-    description: Emissions of Kyoto Gases for cement production
+    description: Direct energy-related emissions of Kyoto Gases for cement production
+    unit: Mt CO2-equiv/yr
+
+- Emissions|Kyoto Gases|Energy and Industrial Processes [incl. Indirect Demand]|Iron and Steel|Steel:
+    description: Emissions of Kyoto Gases for steel production (Scope 1 & Scope 2)
+    unit: Mt CO2-equiv/yr
+- Emissions|Kyoto Gases|Energy|Demand|Industry|Iron and Steel|Steel|{Steel Technology}|{Steel Technology}:
+    description: Direct energy-related emissions of Kyoto Gases for steel production
+      by {Steel Technology} routes
     unit: Mt CO2-equiv/yr
 - Emissions|Kyoto Gases|Energy|Demand|Industry|Iron and Steel|Steel:
-    description: Emissions of Kyoto Gases for Steel production
+    description: Direct energy-related emissions of Kyoto Gases for steel production
     unit: Mt CO2-equiv/yr
 - Emissions|Kyoto Gases|Energy|Demand|Industry|Iron and Steel|Steel|{Steel Technology}:
-    description: Emissions of Kyoto Gases for Steel production by {Steel Technology} routes
+    description: Direct energy-related emissions of Kyoto Gases for steel production
+      by {Steel Technology} routes
     unit: Mt CO2-equiv/yr
 
 - Emissions|CO2|Energy|Demand|Transportation|Passenger|Road:
-    description: Emissions of CO2 for passenger transportation by road
+    description: Direct energy-related emissions of CO2 for passenger transportation by road
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Transportation|Freight|Road:
-    description: Emissions of CO2 for freight transportation by road
+    description: Direct energy-related emissions of CO2 for freight transportation by road
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Transportation|Road:
-    description: Emissions of CO2 for transportation by road
+    description: Direct energy-related emissions of CO2 for transportation by road
     unit: Mt CO2/yr

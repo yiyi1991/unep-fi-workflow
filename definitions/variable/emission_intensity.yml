@@ -1,19 +1,43 @@
 - Emission Intensity|CO2|Energy|Demand|Residential and Commercial:
-    description: Emission intensity of CO2 for residential and commercial buildings per floor space
+    description: Direct energy-related emission intensity of CO2 for residential and
+      commercial buildings per floor space
+    unit: Mt CO2/billion m2
+- Emission Intensity|CO2|Energy|Demand [incl. Indirect Demand]|Residential and Commercial:
+    description: Direct and indirect energy-related emission intensity of CO2 for
+      residential and commercial buildings per floor space
     unit: Mt CO2/billion m2
 - Emission Intensity|CO2|Energy|Demand|Residential|{Residential Building Type}:
-    description: Emission intensity of CO2 for {Residential Building Type} per floor space
+    description: Direct energy-related emission intensity of CO2 for {Residential Building Type} per floor space
+    unit: Mt CO2/billion m2
+- Emission Intensity|CO2|Energy|Demand|Residential [incl. Indirect Demand]|{Residential Building Type}:
+    description: Direct and indirect energy-related emission intensity of CO2 for
+      {Residential Building Type} per floor space
     unit: Mt CO2/billion m2
 - Emission Intensity|CO2|Energy|Demand|Commercial|{Commercial Building Type}:
-    description: Emission intensity of CO2 for a {Commercial Building Type}
+    description: Direct energy-related emission intensity of CO2 for a {Commercial Building Type}
+      per floor space
+    unit: Mt CO2/billion m2
+- Emission Intensity|CO2|Energy|Demand [incl. Indirect Demand]|Commercial|{Commercial Building Type}:
+    description: Direct and indirect emission intensity of CO2 for a {Commercial Building Type}
+      per floor space
     unit: Mt CO2/billion m2
 
 - Emission Intensity|CO2|Energy|Demand|Industry|Chemicals:
     description: Emission intensity of CO2 per billion USD_2010 of chemicals production
     unit: Mt CO2/billion USD_2010
-- Emission Intensity|CO2|Energy|Demand|Industry|Iron and Steel|Steel|Primary:
-    description: Emission intensity of CO2 per ton of primary steel production
+
+- Emission Intensity|Kyoto Gases|Energy and Industrial Processes [incl. Indirect Demand]|Iron and Steel|Steel:
+    description: Emissions of CO2 from the iron and steel sector including emissions
+      from direct and indirect energy use and industrial processes (Scope 1 & Scope 2)
     unit: Mt CO2/Mt
-- Emission Intensity|CO2|Energy|Demand|Industry|Iron and Steel|Steel|Secondary:
-    description: Emission intensity of CO2 per ton of secondary steel production
+- Emission Intensity|CO2|Energy and Industrial Processes|Iron and Steel|Steel|{Primary/Secondary}:
+    description: Direct energy-related emission intensity of CO2 per ton of {Primary/Secondary} steel production
+    unit: Mt CO2/Mt
+- Emission Intensity|CO2|Energy|Demand|Industry|Iron and Steel|Steel|{Primary/Secondary}:
+    description: Direct energy-related emission intensity of CO2 per ton of {Primary/Secondary} steel production
+    unit: Mt CO2/Mt
+
+- Emission Intensity|CO2|Energy and Industrial Processes [incl. Indirect Demand]|Non-Ferrous Metals|Aluminum|{Primary/Secondary}:
+    description: Emission intensity of CO2 per ton of {Primary/Secondary} steel production
+      from direct and indirect energy use and industrial processes (Scope 1 & Scope 2)
     unit: Mt CO2/Mt
