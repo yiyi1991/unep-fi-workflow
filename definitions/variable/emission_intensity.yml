@@ -9,9 +9,8 @@
 - Emission Intensity|CO2|Energy|Demand|Residential|{Residential Building Type}:
     description: Direct energy-related emission intensity of CO2 for {Residential Building Type} per floor space
     unit: Mt CO2/billion m2
-- Emission Intensity|CO2|Energy|Demand|Residential [incl. Indirect Demand]|{Residential Building Type}:
-    description: Direct and indirect energy-related emission intensity of CO2 for
-      {Residential Building Type} per floor space
+- Emission Intensity|CO2|Energy|Demand [incl. Indirect Demand]|Residential|{Residential Building Type}:
+    description: Direct and indirect energy-related emission intensity of CO2 for {Residential Building Type} per floor space
     unit: Mt CO2/billion m2
 - Emission Intensity|CO2|Energy|Demand|Commercial|{Commercial Building Type}:
     description: Direct energy-related emission intensity of CO2 for a {Commercial Building Type}
