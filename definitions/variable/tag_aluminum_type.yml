@@ -3,7 +3,7 @@
       description: total aluminium production
   - Aluminum|Primary:
       description: primary aluminium production
-  - Primary|Electrolysis:
+  - Aluminum|Primary|Electrolysis:
       description: primary aluminium production by electrolysis
   - Aluminum|Primary|Refining:
       description: primary aluminium production by refining
